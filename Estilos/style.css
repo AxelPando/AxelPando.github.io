@@ -1,0 +1,26 @@
+/* SINTAXIS CSS */
+@media only screen and (max-width: 991px) and (min-width: 480px) {
+
+}
+/* Selector Universal */
+* { 
+    margin: 0; 
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+
+/* #bg-primary{
+    background-color:#5A56F1 ;
+} */
+
+/* nav{
+    position: absolute;
+    width: 1512px;
+    height: 431px;
+    color: black;
+} */
