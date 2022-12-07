@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Proyecto Portfolio </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Carpeta JS -->
+    <script src="/Proyecto Final/js/scripts.js"></script>
     <!-- Carpeta estilos -->
     <link rel="stylesheet" href="/Proyecto Final/Estilos/style.css">
+  
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,16 +25,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="nav justify-content">
             <li class="nav-item ">
-              <a class="nav-link text-white" aria-current="page" href="#">Sobre Mi</a>
+              <a class="nav-link text-white" aria-current="page" href="#Sobre Mi">Sobre Mi</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-white" href="#">Porftolio</a>
+              <a class="nav-link text-white" href="#Portfolio">Porftolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Experiencia</a>
+              <a class="nav-link text-white" href="#Experiencia">Experiencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Contacto</a>
+              <a class="nav-link text-white" href="#Contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -41,39 +44,50 @@
 
     <main>
     <!-- Sección "Sobre Mi" -->
-    <section id="Sobre Mi" >
+    <br><section id="Sobre Mi"><br>
       <div class="container">
       <h1 class="text-center">Bienvenido a mi Porftolio Web</h1>
-      <img src="" alt="">
-        <p>Me encuentro desarrollando con tecnologías como HTML, CSS, JavaScript, entre otros que te invito a ver</p>
+      <div  id="Yo" >
+      <p>Me llamo Axel Pando, y soy un joven con gran entusiasmo y proyección de crecimiento en el ámbito de la programación, empezando mi carrera en el área de la informatica como técnico resolviendo problemas. 
+        Me gusta estar en constante proceso de aprendizaje ganando experiencia tanto en capacitaciones, como por cuenta propia para desarrollarme y formar habilidades</p>
+      <p> <i class="fa-solid fa-code "></i> Me encuentro desarrollando con tecnologías como HTML, CSS, JavaScript, entre otros que te invito a ver</p>
+        <p><i class="fa-sharp fa-solid fa-lines-leaning "></i>  En estos momentos estoy aprendiendo tecnologías back-end como  Java</p>
 
-      <img src="" alt="">
-        <p>En estos momentos estoy aprendiendo tecnologías back-end como  Java</p>
-
-      <img src="" alt="">
-        <p>Actualmente estoy buscando oportunidades para empezar con lo que me gusta, el desarrollo web</p>
-     </section><br>
+        <p><i class="fa-solid fa-magnifying-glass"></i></i> Actualmente estoy buscando oportunidades para empezar con lo que me gusta, el desarrollo web</p>
+      </div> 
     </div>
+  </section>
+    
 
      <!-- Sección "Portfolio" -->
      <section id="Porftolio">
       <div class="container">
-
-      
-      <h2>Mis proyectos</h2>
-      <a  href="https://github.com/AxelPando">Mi repositorio en GitHub </a>
-      <br><br>
-      <p>Algunos proyectos que desarrollé<p>
-      <br>
-
+        <h2>Mis proyectos</h2><br>
+          <p id="GitLink">
+            <a href="https://github.com/AxelPando">Te invito a ver mi repositorio en GitHub acá 
+              <i class="fa-brands fa-github fa-2xl"></i>
+            </a>
+          </p>
+          <p>Algunos proyectos que desarrollé utilizando diversas tecnologías<p>
+            <br>
         <!-- Carrusel -->
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
+             
             <div class="carousel-item active">
               <img src="/Proyecto Final/img/admin app.jpg" class="d-block w-100" alt="App de administración">
+             <div class="carousel-caption d-none d-md-block">
+              <h5>App de pequeña administración</h5>
+              <p id="LinkRepo"><a id="LinkRepo" href="">Acá esta el repositorio en GitHub</a></p>
+              </div>
             </div>
+          
             <div class="carousel-item">
               <img src="/Proyecto Final/img/Agencia digital.jpg" class="d-block w-100" alt="Demo de una agencia">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>App de una Agencia Digital</h5>
+                <p id="LinkRepo"><a id="LinkRepo" href="">Acá esta el repositorio en GitHub</a></p>
+                </div>
             </div>
            <!--  <div class="carousel-item">
               <img src="..." class="d-block w-100" alt="...">
@@ -84,49 +98,86 @@
        </section><br>
 
      <!-- Sección "Experiencia" -->
-     <section>
-
-     
-
-     <div id="Experiencia" class="">
-      <h1>Experiencia Laboral</h1>
-      <p>Actualmente estoy en busca de oportunidades, pero eso no me impide seguir aprendiendo</p>
-      <p>Mis tecnologías a las que tengo conocimiento</p>
+     <section id="Experiencia" >
+        <div class="container">
+          <h3>Experiencia Laboral</h3>
+          <p>Actualmente estoy en busca de oportunidades, pero eso no me impide seguir aprendiendo</p><br>
+          
+          <div>
+            <p>En donde trabajé</p>
+          </div>
+          <p>Mis tecnologías a las que tengo conocimiento</p> 
+          <!-- Iconos Tecnologías -->
+          <div class="fa-2x">
+            <i class="fa-brands fa-html5 fa-4x"></i>
+            <i class="fa-brands fa-css3-alt fa-4x"></i>
+            <i class="fa-brands fa-js fa-4x"></i>
+            <i class="fa-brands fa-bootstrap fa-4x"></i>
+            <i class="fa-brands fa-php fa-4x"></i>
+            <i class="fa-brands fa-java fa-4x"></i>
+            <i class="fa-solid fa-database fa-4x"></i>
+          </div>
+        </div>
       </section>
-    
-
+     
      <!-- Sección "Contacto" -->
      <section id="Contacto">
       <div class="container">
-      <h3>Contactame</h3>
-      <img id="ImgContacto" src="/Proyecto Final/img/linkedin (1).png" alt="">
-      <a  href="https://www.linkedin.com/in/axel-hernan-pando/">Axel Hernán Pando</a> <br>
-      <img id="ImgContacto"  src="/Proyecto Final/img/gmail.png" alt="">
-        <p>pandoaxel@gmail.com</p> <br> 
+      <h3>Contactame</h3><br>
+      <div class="fa-1x">
+        <a href="https://www.linkedin.com/in/axel-hernan-pando/"><i class="fab fa-linkedin-in fa-9x"></i></a><br>
+      <a href="https://www.linkedin.com/in/axel-hernan-pando/">Axel Hernán Pando</a><br>
+      <i  class="fa-regular fa-envelope fa-9x"></i>
+      <p>pandoaxel@gmail.com</p>  
+      </div>
+        
+        <br> 
 
         <!-- Formulario correo -->
-        <div class="form-control-sm mb-3">
-          <label for="" class="form-label"><h3>Email</h3></label>
-          <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="ejemplo@mail.com">
-        </div>
-        <div class=" form-control-sm mb-3 ">
-          <label for="exampleFormControlTextarea1" class="form-label"><h3>Mensaje</h3></label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea> <br>
-
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
+          <div class="form-control-sm mb-3">
+            <label for="" class="form-label"><h3>Email</h3></label>
+            <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="ejemplo@mail.com">
+          </div>
+          <div class=" form-control-sm mb-3 ">
+            <label for="exampleFormControlTextarea1" class="form-label"><h3>Mensaje</h3></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea><br> 
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
       </div>
      </section>
-
   </main>
 
     <!-- Pie de página -->
-    <footer>
-
-    </footer>
-
+      <footer class="text-center text-white">
+        
+        <div class="container pt-4">
+        <!-- Google -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
+          href="#!"role="button">
+          <i class="fab fa-google"></i>
+        </a>
+        <!-- Linkedin -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+        href="https://www.linkedin.com/in/axel-hernan-pando/" role="button">
+        <i class="fab fa-linkedin-in"></i>
+        </a>
+        <!-- Github -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #333333;"
+        href="https://github.com/AxelPando" role="button">
+        <i class="fab fa-github"></i>
+        </a>
+        </div>
+          <!-- Copyright -->
+          <div id="copy" class="text-center text-white p-3 bg-primary">
+          <p>© 2023 Copyright:   
+          <a  href="https://github.com/AxelPando"> Axel Pando</a>
+          </p> 
+          </div>
+      </footer>  
 
       <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/085975b34e.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
